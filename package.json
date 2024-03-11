@@ -1,0 +1,32 @@
+{
+  "name": "feincms3-cookiecontrol",
+  "version": "0.0.1",
+  "description": "feincms3-cookiecontrol frontend build",
+  "repository": "git@github.com:feinheit/feincms3-cookiecontrol.git",
+  "author": "York Schickl <ys@feinheit.ch>",
+  "license": "BSD-3",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.20.1"
+  },
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "eslintIgnore": [
+    "**/build.*"
+  ],
+  "prettier": {
+    "semi": false
+  },
+  "dependencies": {
+    "@milkdown-lab/plugin-menu": "^1.2.2",
+    "@milkdown/core": "^7.3.5",
+    "@milkdown/ctx": "^7.3.5",
+    "@milkdown/plugin-history": "^7.3.5",
+    "@milkdown/plugin-listener": "^7.3.5",
+    "@milkdown/preset-commonmark": "^7.3.5",
+    "@milkdown/prose": "^7.3.5",
+    "@milkdown/theme-nord": "^7.3.5",
+    "@milkdown/transformer": "^7.3.5"
+  }
+}
